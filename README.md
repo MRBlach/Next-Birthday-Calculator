@@ -1,7 +1,7 @@
 <h1 align="center">
 <br>
   <a href="https://github.com/MRBlach/Next-Birthday-Calculator">
-    <img src="images/loading.webp" alt="circular symbol representing a loading wait time">
+    <img src="images/congrats.jpg" alt="circular symbol representing a loading wait time">
   </a><br>
 Next Birthday Calculator
 </h1> 
