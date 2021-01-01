@@ -1,5 +1,3 @@
-
-
 // One day Time in ms (milliseconds)
 var one_day=1000*60*60*24;
 

@@ -1,16 +1,5 @@
-
-
-
-// UI variables
-
-
-    // One day Time in ms (milliseconds)
-    const one_day=1000*60*60*24;
-
-
-
-
-
+// One day Time in ms (milliseconds)
+const one_day=1000*60*60*24;
 
 //Listen for submit
 document.getElementById('bday-form').addEventListener('submit', displayLoader);
@@ -19,7 +8,7 @@ function displayLoader(e){
   //show loader gif
   document.getElementById('loading').style.display = 'block';
       //set two second display time
-      setTimeout(calculateResults, 2000);
+      setTimeout(calculateResults, 1000);
 
   e.preventDefault();
 };
@@ -43,7 +32,7 @@ function calculateResults() {
   // to calculate birthday if current month and birthday has not passed
   if (today.getMonth()==month && today.getDate()<day) {
     // concatenate two strings with final math calculation between them
-    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " days left until your next birthday!");
+    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " day(s) left until your next birthday!");
     
     
     // final answer is returned to the h5 element within html page
@@ -58,7 +47,7 @@ function calculateResults() {
   bDay.setFullYear(bDay.getFullYear()+1);
 
     // concatenate two strings with final math calculation between them
-    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " days left until your next birthday!");
+    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " day(s) left until your next birthday!");
     
     
     // final answer is returned to the h5 element within html page
@@ -72,7 +61,7 @@ function calculateResults() {
     bDay.setFullYear(bDay.getFullYear()+1);
 
     // concatenate two strings with final math calculation between them
-    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " days left until your next birthday!");
+    let message = ("Congratulations, you have " + Math.ceil((bDay.getTime()-today.getTime())/(one_day))+ " day(s) left until your next birthday!");
 
 
     // final answer is returned to the h5 element within html page
@@ -90,13 +79,13 @@ function calculateResults() {
 
 //Show error function
 function showError(){
-   //hide results
-   document.getElementById('results').style.display = 'none';
-   //hide loader 
-   document.getElementById('loading').style.display = 'none';
-  
-  
-   //create a div
+  //hide results
+  document.getElementById('results').style.display = 'none';
+  //hide loader 
+  document.getElementById('loading').style.display = 'none';
+
+
+  //create a div
   const errorDiv = document.createElement('div');
   const textNode = document.createTextNode('Check numbers for error');
   //create text node and append to the div
