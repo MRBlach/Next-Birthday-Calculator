@@ -35,13 +35,20 @@ A simple app demonstrating the use of built in javascript methods for obtaining 
 
 ### Landing Page
 
-A classic example of the simplisity of bootstrap styling combined with javascript application.
+A classic example of the simplisity of bootstrap styling combined with javascript application. Responsive design and mobile first approach allow for ease of access across devices.
 
 <img src="images/viewports.png">
 
-### Demo
-
 Here is a working live demonstration: https://mrblach.github.io/Next-Birthday-Calculator/
+
+### Steps To Execute This App
+- Download the entire code
+- Open the index.html file
+
+### Technologies used:
+- HTML
+- Bootstrap [style/presentation]
+- Javascript [logic/functionality]
 
 ---
 <h1 id="development">Development</h1>
