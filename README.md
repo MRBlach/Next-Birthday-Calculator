@@ -1,8 +1,4 @@
 <h1 align="center">
-<br>
-  <a href="https://github.com/MRBlach/Next-Birthday-Calculator">
-    <img src="images/congrats.jpg" alt="circular symbol representing a loading wait time">
-  </a><br>
 Next Birthday Calculator
 </h1> 
 <p align="center">
@@ -40,7 +36,8 @@ A simple app demonstrating the use of built in javascript methods for obtaining 
 ### Landing Page
 
 A classic example of the simplisity of bootstrap styling combined with javascript application.
-   <img src="images/viewports.png">
+
+<img src="images/viewports.png">
 
 ### Demo
 
