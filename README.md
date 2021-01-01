@@ -47,8 +47,8 @@ Here is a working live demonstration: https://mrblach.github.io/Next-Birthday-Ca
 
 ### Technologies used:
 - HTML
-- Bootstrap [style/presentation]
-- Javascript [logic/functionality]
+- Bootstrap 
+- Javascript 
 
 ---
 <h1 id="development">Development</h1>
